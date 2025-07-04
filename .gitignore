@@ -1,0 +1,26 @@
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/dist/
+server/build/
+
+# Environment files
+client/.env
+server/.env
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Optional: if you use macOS or JetBrains
+*.iml
+*.swp
